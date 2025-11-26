@@ -1,82 +1,57 @@
-🛡️ Anti-Fraud Document Analyzer with Azure AI
+🔍 Anti-Fraud Document Analyzer — Azure AI Powered
+Advanced document analysis & fraud detection using Python + Azure AI
 
-A system for fraud detection and document analysis using Python and Azure AI Services.
+The Anti-Fraud Document Analyzer is an intelligent system built in Python, powered by Microsoft Azure AI, designed to detect inconsistencies, extract structured data, and identify potential fraud in documents such as IDs, contracts, invoices, certificates, and more.
 
-📘 About the Project
+Its goal is to combine AI + automation to deliver precise, fast, and secure document validation.
 
-This project aims to analyze documents and detect potential fraud, inconsistencies, or manipulations using artificial intelligence.
-It leverages advanced models from Azure AI to extract structured data, validate authenticity, and identify suspicious patterns with high accuracy.
+🚀 Features
 
-The system is capable of:
+📑 High-accuracy OCR using Azure Document Intelligence
 
-✔ Intelligent text extraction
-✔ Structured field recognition
-✔ Metadata inspection
-✔ Detection of manipulation indicators (forgery, edits, overlays, and anomalies)
+🔐 Fraud detection (tampering, edits, distortions, anomalies)
 
-🧠 Technologies Used
-Python
+🧾 Form & field extraction (names, dates, IDs, signatures, etc.)
 
-Python serves as the core programming language of the project due to its rich ecosystem of AI and data-processing libraries.
+🧠 Layout and structure analysis
 
-Key Python libraries include:
+🧩 Metadata inspection
+
+⚠️ Suspicious pattern detection
+
+📊 Generates a detailed verification report
+
+🔄 Modular, easy to integrate with web apps, APIs or desktop systems
+
+🛠️ Tech Stack
+Core Language
+
+Python 3
+
+Azure AI Services
+
+Azure Document Intelligence (Form Recognizer)
+
+OCR
+
+Key-value extraction
+
+Layout + tables
+
+Fraud-sign indicators
+
+Azure Cognitive Services
+
+Optional: vision & anomaly detection models
+
+Python Libraries
 
 azure-ai-formrecognizer
 
 azure-core
 
-pillow
+python-dotenv
 
 numpy
 
-python-dotenv
-
-Azure AI Services
-
-The solution integrates with the following Azure AI resources:
-
-Azure Document Intelligence (Form Recognizer)
-
-Used for:
-
-Document OCR
-
-Key-value extraction
-
-Layout detection
-
-Signature detection
-
-Fraud pattern analysis
-
-Azure Cognitive Services
-
-Optional features may include:
-
-Image analysis
-
-Anomaly detection
-
-Text understanding
-
-🚀 Features
-
-OCR and Text Extraction
-Extracts text from images and PDF documents with high accuracy.
-
-Field and Layout Recognition
-Identifies structured data (names, IDs, dates, values, etc.).
-
-Consistency and Fraud Checks
-
-Detects mismatched fields
-
-Highlights missing or altered regions
-
-Flags low-quality or tampered areas
-
-Metadata Validation
-Reads metadata to detect editing traces and anomalies.
-
-Simple Integration
-Easily extendable for other types of documents or workflows.
+Pillow
